@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+}
+.container {
+    border: 0.3rem solid black;
+    display: flex;
+    height: 50vh;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+.box {
+    height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
+}
+.box1{
+    background-color: cornflowerblue;
+  
+}
+.box2 {
+    background-color: darkgoldenrod;
+}
+.box3 {
+    background-color: darkolivegreen;
+}
+.box4{
+    background-color: darkslateblue;
+}
+.box5 {
+    background-color: deeppink;
+}
+.box6 {
+    background-color: fuchsia;
+}

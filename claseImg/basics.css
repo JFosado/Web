@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: seagreen;
+    font-size: 30px;
+    display: inline-block;
+}
+
+h1{
+    color: seagreen;
+    align-content: center;
+}
+h3{
+    color: seagreen;
+}
+li{
+    display: inline-block;
+}
+.main-ul {
+    display: flex;
+    padding-left: 0;
+}
+body {
+    background-color: wheat;
+}
+.main-ul__li {
+    font-size: 30px;
+}
